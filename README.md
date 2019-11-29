@@ -59,12 +59,12 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 
 ### First steps on embl git
 
-1. Connect to **git.embl.de** and use your regular login and password.
+#### 1. Connect to **git.embl.de** and use your regular login and password.
 
 ![log](pictures/First-steps-on-embl-git/step1.png)
 
 
-2. Explore the welcome page
+#### 2. Explore the welcome page
 
 ![Welcome](pictures/First-steps-on-embl-git/step2.png)
 
@@ -74,7 +74,7 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * D: Create a new project (see below).
 
   
-3. Explore projects
+#### 3. Explore projects
 
 ![projects](pictures/First-steps-on-embl-git/step3.png)
 
@@ -84,7 +84,7 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * D: The 'New project' icon is always accessible from the interface (see next step).
 
   
-4. Create a new project
+#### 4. Create a new project
   
 ![new project](pictures/First-steps-on-embl-git/step4.png)
 
@@ -95,7 +95,7 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * E: Initialize the repository with a markdown document called 'README.md'. Select this option. The description (see point C) and the title of your repository will appear in this document by default.
   * F: Click 'Create project'.
 
-5. Explore the repository interface
+#### 5. Explore the repository interface
 
 ![repository](pictures/First-steps-on-embl-git/step5.png)
 
@@ -106,11 +106,11 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * E: This secton contains all the folders and files of your repository. For the moment there is only one file: 'README.md'. The 'Last commit' column displays the last modification message for each file. 'Last update' indicates when a particular modification happened.
   * F: The README file, it is usually used to create the documentation of your repository.  
 
-6. Edit README.md
+#### 6. Edit README.md
 
 ![readme modification](pictures/First-steps-on-embl-git/step6.png)
 
-7. Modify and commit
+#### 7. Modify and commit
 
 ![modify and commit](pictures/First-steps-on-embl-git/step7.png)
 
