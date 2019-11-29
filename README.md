@@ -4,8 +4,8 @@
 
 1. [Introduction](#introduction)
 2. [Getting started](#getting-started)
-  * [demo](#demo)
-  * [First steps on embl git](#first-steps-on-embl-git)
+    * [demo](#demo)
+    * [First steps on embl git](#first-steps-on-embl-git)
 
 
 **Contributors:** Nicolas Descostes and Toby Hodges
