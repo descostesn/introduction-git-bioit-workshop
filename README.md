@@ -15,28 +15,28 @@ The Software Carpentry content being under CC-BY 4.0 license and GBCS having kin
 
 Let's begin by having a look at what a life without git looks like:
 
-[!manuscript1](pictures/intro1.jpeg)
+![manuscript1](pictures/intro1.jpeg)
 [1](https://medium.com/@fredrick.adegoke/version-control-systems-source-code-banking-efcbb9272aee)
 
-[!manuscript2](pictures/intro2.jpeg)
+![manuscript2](pictures/intro2.jpeg)
 [2](http://www.phdcomics.com)
 
 Git can not only prevent you experiencing these situations but also help you programming more efficiently:
 
-[!badpractice](pictures/intro3.jpeg)
+![badpractice](pictures/intro3.jpeg)
 [3](http://www.phdcomics.com)
 
 Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your more recent version.
 
-[!modification1](pictures/intro4.jpeg)
+![modification1](pictures/intro4.jpeg)
 
 Once you think of changes as separate from the document itself, you can then think about “playing back” different sets of changes on the base document, ultimately resulting in different versions of that document. For example, two users can make independent sets of changes on the same document. Git enables collaborative work! Several people can work on the same document or the same program!
 
-[!modification2](pictures/intro5.jpeg)
+![modification2](pictures/intro5.jpeg)
 
 Unless multiple users make changes to the same section of the document - a conflict - you can incorporate two sets of changes into the same base document.
 
-[!modification3](pictures/intro6.jpeg)
+![modification3](pictures/intro6.jpeg)
 
 A version control system is a tool that keeps track of these changes for us, effectively creating different versions of our files. It allows us to decide which changes will be made to the next version (each record of these changes is called a commit), and keeps useful metadata about them. The complete history of commits for a particular project and their metadata make up a repository. Repositories can be kept in sync across different computers, facilitating collaboration among different people.
 
@@ -45,7 +45,6 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 **Key points:**
   * Version control is like an unlimited ‘undo’.
   * Version control also allows many people to work in parallel.
-
 
 
 
