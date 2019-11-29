@@ -116,7 +116,64 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 
   * A: Indicate the edited file.
   * B: Modificaton of the document. Here the sentence is 'Doing my first modification'.
-  * C:  
+  * C: Describe the modification that you want to save such as 'adding the sentence -doing my first modification-'.
+  * D: Branch on which the commit is done. Here is the master branch.
+  * E: Hit 'Commit changes', the "commit" command is used to save your changes to the local repository. 
+
+#### 8. Explore modifications
+
+![changes](pictures/First-steps-on-embl-git/step8.png)
+
+  * A: The number of commits changed from 1 to 2. The first one was the original commit when creating the repository; it was 'initial commit'. The second one is the one that you just did.
+  * B: You can now see that the commit "adding the sentence 'Doing my first modification'" was done 27 minutes ago.
+  * C: The actual modification.
+  
+Now perform a two editing of the document: 
+  * Add "Doing my second modification."
+  * Remove 'Doing my first modification' and add 'Doing my third modification'.
+
+
+#### 9. Explore the history
+
+Click the 'History' button:
+
+![history](pictures/First-steps-on-embl-git/step9.png)
+
+You can see a list of modifications that were made on your repository. Click on the most recent one at the top of the list.
+
+![all modifications](pictures/First-steps-on-embl-git/step9-2.png)
+
+You can appreciate now all additions or deletions that were made to your document:
+
+![recent](pictures/First-steps-on-embl-git/step9-3.png)
+
+  * A: At the top, you can read that for this particular commit, 3 additions and 1 deletion were made. You can change the representation or hide whitespace changes with the top left buttons.
+  * B: The red color represents deletions. The line 5 was removed.
+  * C: Green represents additions. Line 5, 8 and 9 were added to the document.
+  
+Display changes in a direct comparison with the previous commit by clicking the icon 'Side-by-side':
+
+![recent](pictures/First-steps-on-embl-git/step9-4.png)
+
+Finally, you can visualize all commits with their messages using the 'blame' button. Go to the welcome page of your repository, click on 'README.md' and then 'Blame' on the top right:
+
+![recent](pictures/First-steps-on-embl-git/step9-5.png)
+
+You should obtain the interface below:
+
+![recent](pictures/First-steps-on-embl-git/step9-6.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
