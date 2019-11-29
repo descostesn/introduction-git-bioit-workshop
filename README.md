@@ -78,10 +78,10 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 
 ![projects](pictures/First-steps-on-embl-git/step3.png)
 
-  * A: Click on All to see all **repositories** hosted at EMBL. You can also filter these projects by 'Trending' or 'Most stars' features.
+  * A: Click on All to see all **repositories** hosted at EMBL. You can also filter these projects by 'Trending' or 'Most stars' features (on the left side of the 'All' tab).
   * B: Display the repositories by 'last updated', 'name', 'oldest updated', and other criteria.
   * C: Display the repositories whether they are 'public', 'internal' or 'private'.
-  * D: The 'New project' icon is always accessible from the interface (see next step).
+  * D: The 'New project' icon is always accessible from the interface (see next step). Now click on it and follow the next steps.
 
   
 #### 4. Create a new project
@@ -92,7 +92,7 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * B: A repository slug is a URL-friendly version of a repository name, you can see that upper-case letters and space were removed ('demo-repo').
   * C: Enter a description of the repository such as 'first creation of a git repository'. This will be displayed under your repository name on the welcome page.
   * D: Choose the visibility level of the repository. 'private' means that only you and other owners (that you could invite) can see the repository; 'internal' means that only people from embl can see the repository; and 'public' makes the repository readable to anybody.
-  * E: Initialize the repository with a markdown document called 'README.md'. Select this option. The description (see point C) and the title of your repository will appear in this document by default.
+  * E: Initialize the repository with a markdown document called 'README.md'. **Select this option**. The description (see point C) and the title of your repository will appear in this document by default.
   * F: Click 'Create project'.
 
 #### 5. Explore the repository interface
@@ -100,13 +100,15 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 ![repository](pictures/First-steps-on-embl-git/step5.png)
 
   * A: Title of the repository. The lock icon indicates that the repository is private.
-  * B: You will see later on what *commit* and *branches* means. Aside from the indicated size of the repository (depending on the files stored in it), you can add a license (defining the conditions of utilization of you documents and code) and some searchable tags.
-  * C: The bell icon enables to define how you should be notified concerning modifications made to the repository. Star is functionning as 'likes' on twitter or facebook. The clone button is what you will use to import the repository on your computer or in a development interface. The fork button enables you to clone any (non-private) repository in order to modify it.
-  * D: Indicate the branch on which you are (see below on how to create and use branches). The '+' icon enables to add new files or folders; you will almost never use this button. The history displays modifications made on your repository and the 'down arrow' icon is a download button.
+  * B: You will see later on what *commit* and *branches* mean. Aside from the indicated size of the repository (113 Kb; depending on the files stored in it), you can add a license (defining the conditions of utilization of your documents and code) and some searchable tags.
+  * C: The bell icon enables to define how you should be notified concerning modifications made to the repository. Star is functionning as 'likes' on twitter or facebook. The fork button enables you to clone any (non-private) repository in order to modify it. The clone button is what you will use to import the repository on your computer or in a development interface (see next part on using git in RStudio).
+  * D: Indicate the branch on which you are (see below on how to create and use branches). The current branch is called 'master'. The '+' icon enables to add new files or folders; you will almost never use this button. The 'History' (on the right) displays modifications made on your repository and the 'down arrow' icon is a download button. You can save your entire repository in a zip file on your localm computer.
   * E: This secton contains all the folders and files of your repository. For the moment there is only one file: 'README.md'. The 'Last commit' column displays the last modification message for each file. 'Last update' indicates when a particular modification happened.
   * F: The README file, it is usually used to create the documentation of your repository.  
 
 #### 6. Edit README.md
+
+Click on README.md and hit the 'Edit' button:
 
 ![readme modification](pictures/First-steps-on-embl-git/step6.png)
 
@@ -128,7 +130,7 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * B: You can now see that the commit "adding the sentence 'Doing my first modification'" was done 27 minutes ago.
   * C: The actual modification.
   
-Now perform a two editing of the document: 
+Now perform two edits to the document: 
   * Add "Doing my second modification."
   * Remove 'Doing my first modification' and add 'Doing my third modification'.
 
@@ -147,7 +149,7 @@ You can appreciate now all additions or deletions that were made to your documen
 
 ![recent](pictures/First-steps-on-embl-git/step9-3.png)
 
-  * A: At the top, you can read that for this particular commit, 3 additions and 1 deletion were made. You can change the representation or hide whitespace changes with the top left buttons.
+  * A: At the top left, you can read that for this particular commit, 3 additions and 1 deletion were made. You can change the representation or hide whitespace changes with the top right buttons.
   * B: The red color represents deletions. The line 5 was removed.
   * C: Green represents additions. Line 5, 8 and 9 were added to the document.
   
@@ -164,7 +166,9 @@ You should obtain the interface below:
 ![recent](pictures/First-steps-on-embl-git/step9-6.png)
 
 
+#### Conclusion
 
+  This section aimed at giving you a first impression of how git/version control works. As you can imagine git can enable you to do much more than this! In the following section, we will see how to use git in Rstudio.
 
 
 
