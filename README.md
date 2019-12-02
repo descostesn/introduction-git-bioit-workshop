@@ -4,9 +4,11 @@
 
 1. [Introduction](#introduction)
 2. [Getting started](#getting-started)
-    * [demo](#demo)
+    * [Demo](#demo)
     * [First steps on embl git](#first-steps-on-embl-git)
-
+3. [Rstudio](#rstudio)
+    * [Demo 2](#demo-2)
+    * [Git in Rstudio](#git-in-rstudio)
 
 **Contributors:** Nicolas Descostes and Toby Hodges
 
@@ -68,8 +70,8 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
 
 ![Welcome](pictures/First-steps-on-embl-git/step2.png)
 
-  * A: By default, all the projects that you are involved in are displayed on this page. **A project is also called a 'repository'.**
-  * B: When creating a project, you can define access rights (**private, internal, public**; see below). This tab will restrict the view to your projects that are **private**.
+  * A: By default, all the projects of all the groups that you are involved in are displayed on this page. **A project is also called a 'repository'.**
+  * B: This tab will restrict the view to the projects that you are involved in as a maintainer, a developper or other.
   * C: Search bar, search for a particular project by keywords.
   * D: Create a new project (see below).
 
@@ -171,13 +173,86 @@ You should obtain the interface below:
   This section aimed at giving you a first impression of how git/version control works. As you can imagine git can enable you to do much more than this! In the following section, we will see how to use git in Rstudio.
 
 
+## Rstudio
+
+### Demo 2
+
+**Live demo of the content of the next section.**
+
+### Git in Rstudio
+
+#### 1. Create a new repository on gitlab called 'rstudio demo'
+
+**Initialize the repository with a README**. Copy the html address of the repository using the 'clone icon'.
+
+![clone](rstudio/rstudio-1.png)
+
+#### 2. Connect to Rstudio
+
+Go to the [EMBL Rstudio webpage](https://rstudio.embl.de/auth-sign-in) and authenticate using your EMBL login and password:
+
+![login](rstudio/rstudio-2.png)
+
+#### 3. Create a new project in Rstudio
+
+![new project](rstudio/rstudio-3.png)
+
+Click 'Version control':
+
+![version control](rstudio/rstudio-4.png)
+
+Click 'git':
+
+![version control](rstudio/rstudio-5.png)
+
+Enter the repository HTTPS URL and select 'open in new session'. Hit 'Create project''.
+
+![url](rstudio/rstudio-6.png)
+
+You should see the following interface:
+
+![url](rstudio/rstudio-7.png)
+
+  * A: This tool bar contains the important tools for managing your git. We have already seen what **commit** aims for. You will see below how to use Diff, pull, push and history.
+  * B: Shows the files of the current repository that are not yet committed. The .gitignore file defines files that should not be commited (and pushed) to the repository.
+  * C: Notice that the project is created in your home folder. **Since the space in this folder is limited, you might want to move it to another location**.
+  * D: Shows the files of the repository (wether or not they are commited).  
+
+#### 4. Commit your changes
+
+Create a new R script:
+
+![url](rstudio/rstudio-8.png)
+
+Modify it as follows and save it as 'firstscript'.
+
+![url](rstudio/rstudio-9.png)
+
+You should obtain the following interface:
+
+![url](rstudio/rstudio-10.png)
+
+  * A: The just created script.
+  * B: The script now appears in the git window.
+  * C: The script now appears in the repository window.
+
+Select all files in the git window and hit 'commit':
+
+![url](rstudio/rstudio-10.png)
+
+Enter 'initial commit' for the commit message and hit 'commit':
+
+![url](rstudio/rstudio-11.png)
+
+The files now disappeared in the git window.
 
 
+#### 5. Push your changes
 
+Go back to your repository on gitlab and refresh the page. You should see that nothing changed. This is because the files were committed locally. You need now to **push** them to the repository. To do so, click the push button in the
+rstudio interface:
 
-
-
-
+ ![url](rstudio/rstudio-12.png)
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
