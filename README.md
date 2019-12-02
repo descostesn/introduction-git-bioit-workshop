@@ -252,7 +252,38 @@ The files now disappeared in the git window.
 Go back to your repository on gitlab and refresh the page. You should see that nothing changed. This is because the files were committed locally. You need now to **push** them to the repository. To do so, click the push button in the
 rstudio interface:
 
- ![url](pictures/rstudio/rstudio12.png)
+![url](pictures/rstudio/rstudio12.png)
+
+
+#### 6. Explore differences
+
+Let's begin by doing the following modification to the script:
+
+![url](pictures/rstudio/rstudio13.png)
+
+Commit this change as before by clicking 'commit'. 
+
+![url](pictures/rstudio/rstudio14.png)
+
+You can see that the added lines are highlighted in green and the removed one in red. Click commit and then directly press 'push' on the top right corner.
+
+You can see each modification that you did through the 'history' icon:
+
+![url](pictures/rstudio/rstudio15.png)
+
+Let's add a third plot to our script and remove the first one:
+
+![url](pictures/rstudio/rstudio16.png)
+
+You can visualize all the difference that you made before committing and pushing your changes with 'Diff'.
+
+![url](pictures/rstudio/rstudio17.png)
+
+In the same way as before, you can see changes highlighted in red and green:
+
+![url](pictures/rstudio/rstudio18.png)
+
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
