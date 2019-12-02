@@ -283,6 +283,22 @@ In the same way as before, you can see changes highlighted in red and green:
 
 ![url](pictures/rstudio/rstudio18.png)
 
+**Now commit and push your changes**.
+
+#### 7. Retrieve modifications with pull
+
+Let's imagine that you are collaborating on a project. Before starting coding, you want to make sure that your repository is up-to-date by integrating the modifications that others did. Let's first pretend that you are this collaborator.
+Go to your repository, click firstscript.R and 'edit'. Add a fourth plot to the script:
+
+![url](pictures/rstudio/rstudio19.png)
+
+If you now look at your history in the rstudio interface, the change that you just have made will not appear. In order to import it, click 'pull':
+
+![url](pictures/rstudio/rstudio20.png)
+
+The modification that you did directly on gitlab should now be visible on your script section and in your history:
+
+![url](pictures/rstudio/rstudio21.png) 
 
 
 
