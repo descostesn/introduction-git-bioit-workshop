@@ -236,15 +236,11 @@ You should obtain the following interface:
   * B: The script now appears in the git window.
   * C: The script now appears in the repository window.
 
-Select all files in the git window and hit 'commit':
-
-![url](pictures/rstudio/rstudio10.png)
-
-Enter 'initial commit' for the commit message and hit 'commit':
+Select all files in the git window and hit 'commit'. Enter 'initial commit' for the commit message and hit 'commit':
 
 ![url](pictures/rstudio/rstudio11.png)
 
-The files now disappeared in the git window.
+The files now disappeared from the git window.
 
 
 #### 5. Push your changes
@@ -254,6 +250,7 @@ rstudio interface:
 
 ![url](pictures/rstudio/rstudio12.png)
 
+The modifications should now be visible on the git page.
 
 #### 6. Explore differences
 
@@ -296,7 +293,7 @@ If you now look at your history in the rstudio interface, the change that you ju
 
 ![url](pictures/rstudio/rstudio20.png)
 
-The modification that you did directly on gitlab should now be visible on your script section and in your history:
+The modification that you did directly on gitlab should now be visible in your script and in your history:
 
 ![url](pictures/rstudio/rstudio21.png) 
 
