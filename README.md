@@ -185,33 +185,33 @@ You should obtain the interface below:
 
 **Initialize the repository with a README**. Copy the html address of the repository using the 'clone icon'.
 
-![clone](rstudio/rstudio-1.png)
+![clone](rstudio/rstudio1.png)
 
 #### 2. Connect to Rstudio
 
 Go to the [EMBL Rstudio webpage](https://rstudio.embl.de/auth-sign-in) and authenticate using your EMBL login and password:
 
-![login](rstudio/rstudio-2.png)
+![login](rstudio/rstudio2.png)
 
 #### 3. Create a new project in Rstudio
 
-![new project](rstudio/rstudio-3.png)
+![new project](rstudio/rstudio3.png)
 
 Click 'Version control':
 
-![version control](rstudio/rstudio-4.png)
+![version control](rstudio/rstudio4.png)
 
 Click 'git':
 
-![version control](rstudio/rstudio-5.png)
+![version control](rstudio/rstudio5.png)
 
 Enter the repository HTTPS URL and select 'open in new session'. Hit 'Create project''.
 
-![url](rstudio/rstudio-6.png)
+![url](rstudio/rstudio6.png)
 
 You should see the following interface:
 
-![url](rstudio/rstudio-7.png)
+![url](rstudio/rstudio7.png)
 
   * A: This tool bar contains the important tools for managing your git. We have already seen what **commit** aims for. You will see below how to use Diff, pull, push and history.
   * B: Shows the files of the current repository that are not yet committed. The .gitignore file defines files that should not be commited (and pushed) to the repository.
@@ -222,15 +222,15 @@ You should see the following interface:
 
 Create a new R script:
 
-![url](rstudio/rstudio-8.png)
+![url](rstudio/rstudio8.png)
 
 Modify it as follows and save it as 'firstscript'.
 
-![url](rstudio/rstudio-9.png)
+![url](rstudio/rstudio9.png)
 
 You should obtain the following interface:
 
-![url](rstudio/rstudio-10.png)
+![url](rstudio/rstudio10.png)
 
   * A: The just created script.
   * B: The script now appears in the git window.
@@ -238,11 +238,11 @@ You should obtain the following interface:
 
 Select all files in the git window and hit 'commit':
 
-![url](rstudio/rstudio-10.png)
+![url](rstudio/rstudio10.png)
 
 Enter 'initial commit' for the commit message and hit 'commit':
 
-![url](rstudio/rstudio-11.png)
+![url](rstudio/rstudio11.png)
 
 The files now disappeared in the git window.
 
@@ -252,7 +252,7 @@ The files now disappeared in the git window.
 Go back to your repository on gitlab and refresh the page. You should see that nothing changed. This is because the files were committed locally. You need now to **push** them to the repository. To do so, click the push button in the
 rstudio interface:
 
- ![url](rstudio/rstudio-12.png)
+ ![url](rstudio/rstudio12.png)
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
