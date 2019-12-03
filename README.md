@@ -104,8 +104,8 @@ Automated version control systems are nothing new. Tools like RCS, CVS, or Subve
   * A: Title of the repository. The lock icon indicates that the repository is private.
   * B: You will see later on what *commit* and *branches* mean. Aside from the indicated size of the repository (113 Kb; depending on the files stored in it), you can add a license (defining the conditions of utilization of your documents and code) and some searchable tags.
   * C: The bell icon enables to define how you should be notified concerning modifications made to the repository. Star is functionning as 'likes' on twitter or facebook. The fork button enables you to clone any (non-private) repository in order to modify it. The clone button is what you will use to import the repository on your computer or in a development interface (see next part on using git in RStudio).
-  * D: Indicate the branch on which you are (see below on how to create and use branches). The current branch is called 'master'. The '+' icon enables to add new files or folders; you will almost never use this button. The 'History' (on the right) displays modifications made on your repository and the 'down arrow' icon is a download button. You can save your entire repository in a zip file on your localm computer.
-  * E: This secton contains all the folders and files of your repository. For the moment there is only one file: 'README.md'. The 'Last commit' column displays the last modification message for each file. 'Last update' indicates when a particular modification happened.
+  * D: Indicate the branch on which you are (see below on how to create and use branches). The current branch is called 'master'. The '+' icon enables to add new files or folders; you will almost never use this button. The 'History' (on the right) displays modifications made on your repository and the 'down arrow' icon is a download button. You can save your entire repository in a zip file on your local computer.
+  * E: This section contains all the folders and files of your repository. For the moment there is only one file: 'README.md'. The 'Last commit' column displays the last modification message for each file. 'Last update' indicates when a particular modification happened.
   * F: The README file, it is usually used to create the documentation of your repository.  
 
 #### 6. Edit README.md
@@ -157,15 +157,15 @@ You can appreciate now all additions or deletions that were made to your documen
   
 Display changes in a direct comparison with the previous commit by clicking the icon 'Side-by-side':
 
-![recent](pictures/First-steps-on-embl-git/step9-4.png)
+![recent2](pictures/First-steps-on-embl-git/step9-4.png)
 
 Finally, you can visualize all commits with their messages using the 'blame' button. Go to the welcome page of your repository, click on 'README.md' and then 'Blame' on the top right:
 
-![recent](pictures/First-steps-on-embl-git/step9-5.png)
+![recent3](pictures/First-steps-on-embl-git/step9-5.png)
 
 You should obtain the interface below:
 
-![recent](pictures/First-steps-on-embl-git/step9-6.png)
+![recent4](pictures/First-steps-on-embl-git/step9-6.png)
 
 
 #### Conclusion
