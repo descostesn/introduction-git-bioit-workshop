@@ -326,36 +326,50 @@ The modification that you did directly on gitlab should now be visible in your s
 - change global settings
   - `git config --global user.name`
   - `git config --global user.email`
-  - `git config --global core.editor "nano -w"`
+  - `git config --global core.editor "nano -w"` (no wrapping), or use your favourite editor (without the -w flag)
+  - `git config --global color.ui auto`
+- `ls -a` -> `.git` folder
 - mention `git init` - demo this at the end of day
 - `git status`
 - `git log`
-- edit/create a file
+- edit/create a file - add "1/2 onion" to ingredients
 - `git add`
 - `git commit`
   - (if necessary) more about commit messages
   - imagine your future self as a collaborator, who won't know (remember) why you made the changes you're making
-- make another change
+- explain staging area; local repository
+- EXERCISE -> slide
+- one more change - "add salt to taste" to instructions
 - `git add`
+- `git reset HEAD instructions.txt`
+- diagram on slide
 - `git commit -m`
 - mention `git commit -a` & warn about hazards of using it
 - `git log`
   - `git log -N`
   - `git log --oneline`
   - `git log --patch <filename>`
+- add "* tomato ketchup" to ingredients
+- `git add`
+- `git commit`
+- "* squeeze lime" to instructions
 - `git diff`
   - `git add + git diff --staged`
   - `git diff --color-words`
   - `git diff HEAD~2 <filename>`
   - `git diff <commithash> <filename>`
+- `git revert <commithash>`
+- edit README and another file
 - `git checkout HEAD` to revert to most recent committed state
   - `git checkout HEAD <filename>` to achieve the same thing with a single file
+- EXERCISE -> slide
 - detached head!
   - `git checkout <commithash>` (forgetting filename)
   - `git checkout master` to recover from this
 - `.gitignore`
 - remotes
   - `git remote`
+  - `git remote -v`
   - `git push origin master`
   - make a change on GitLab
   - `git pull origin master`
